@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatini Umairah Portfolio</title>
+
+  
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body style="
+  background-color: saddlebrown; 
+  background-image: url('./assets/images/kosong.png'); 
+  background-repeat: repeat-x; 
+    background-repeat: repeat-y; 
+
+  background-size: 100px;
+">
+</body>
+
+
+
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/gambardegree3.png" alt="Richard hanrick" width="80">
+        </figure>
+<style>
+  .info-content .name {
+    margin: 0; /* Remove margin around h1 */
+  }
+</style>
+<div class="info-content">
+  <h2 class="name" title="Richard hanrick">Fatini Umairah</h1>
+  <h2 class="name" title="Richard hanrick">Umar</h1>
+  <p class="t">Final Year Computer Student</p>
+</div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:fatiniumairahumar22@gmail.com" class="contact-link">fatiniumairahumar22@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+601116308602</a>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hulu Langat, Selangor</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/fatini-umairah-umar-0a2769328/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/FatiniUmairah" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        <!--  <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>-->
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Portfolio</button>
+          </li>
+
+        
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Me</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+  <article class="portfolio active" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="javascript:void(0);" onclick="showMessage('message1')">
+          <img src="./assets/images/SS.png" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
+          <br>
+          <h3 class="project-title">Smart Parking Management with Data Visualization and Anomaly Detection (On-Going Project)</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="javascript:void(0);" onclick="showMessage('message2')">
+          <img src="./assets/images/SESP.jpg" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
+          <br>
+          <h3 class="project-title">Software Engineer Salary Prediction</h3>
+
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+    
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="javascript:void(0);" onclick="showMessage('message4')">
+          <img src="./assets/images/dahlia.jpg" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
+          <br>
+          <h3 class="project-title">E-Commerce Dahlia Supermarket</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="javascript:void(0);" onclick="showMessage('message5')">
+          <img src="./assets/images/ParcelTracker.jpg" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
+          <br>
+          <h3 class="project-title">Parcel Tracker Management</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+        <li class="project-item active" data-filter-item data-category="applications">
+        <a href="javascript:void(0);" onclick="showMessage('message3')">
+          <img src="./assets/images/TicTac.jpg" alt="fundo" loading="lazy" style="width: 180px; height: 360px;">
+          <br>
+          <h3 class="project-title">Tic Tac Toe Game</h3>
+          <p class="project-category">Application</p>
+        </a>
+      </li>
+    </ul>
+     <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Software: Visual Studio, Sublime Text, Visual Studio.NET, Alice, Android Studio, Figma, Microsoft Azure,
+ PowerBI</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming: PHP, Java, Python, C++, JavaScript, HTML, CSS, JSON, SQL </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases and Data Analysis: MySQL, Excel</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Certification: Certified Data Analyst Program (Currently pursuing Microsoft Azure Data and Power BI
+ certifications, with an expected completion date of April 2025).</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+  </section>
+
+</article>
+
+
+
+<!-- Message Boxes -->
+<div id="message1" class="message-box" style="display: none;">
+  <div class="message-content">
+    <button onclick="closeMessage('message1')">X</button>
+<img src="./assets/images/SS.png" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+s     <h3>Overview of the System</h3>
+      <p>• Developed using Laravel, PHP, csv and SQL (phpMyAdmin)</p>
+      <p>• This system will analyze data from Smart Integra Tech Sdn Bhd and detect abnormal data, and visualize it.</p>
+
+<p>• For example, this system is able to detect duplicate customer data, abnormal transactions, unusual plate numbers, suspicious credit balances, and irregular parking start and end times.</p>
+
+      <p>• Due to its confidentiality, the system cannot be shared, but the report is available. However, this project is still ongoing.</p>
+      <p><a href="https://drive.google.com/file/d/1PBge5OqlNxclbdS4icyIrpcqh55MKtjH/view?usp=sharing" target="_blank">Click here to see the report</a></p>
+  </div>
+</div>
+
+<div id="message2" class="message-box" style="display: none;">
+  <div class="message-content">
+    <button onclick="closeMessage('message2')">X</button>
+    <img src="./assets/images/predict.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+
+     <h3>Overview of the System</h3>
+      <p>• Developed using Visual Studio, Flask, Anaconda, Python, Google collab and Sql (phpMyAdmin)</p>
+      <p>• This system able to predict software engineer salary over a few countries by their experience country and others</p>
+
+<p>• The admin will able to do the CRUD operation for manage job advertisment while the user can view the prediction after entering some details and can search for job too.</p>
+
+            <p><a href="https://drive.google.com/drive/folders/1Y7lJORkNLw4KqJ2nbuOhnv48Z3lVsvPM?usp=sharing" target="_blank">Click here to see the report</a></p>
+                        <p><a href="https://github.com/FatiniUmairah/Software-Engineer-Salary-Prediction">Click here to see the code</a></p>
+  </div>
+</div>
+
+<div id="message3" class="message-box" style="display: none;">
+  <div class="message-content">
+    <button onclick="closeMessage('message3')">X</button>
+    <img src="./assets/images/score.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+
+     <h3>Overview of the System</h3>
+  <p>• Developed using Android Studio, Kotlin, and SQL (phpMyAdmin).</p>
+<p>• This game can be played by 2 players, and the user records will be stored.</p>
+
+
+            <p><a href="https://drive.google.com/file/d/18JQQV-8n5NFEC2rQfAkqUjjN01qOqSLN/view?usp=sharing" target="_blank">Click here to see the report</a></p>
+                        <p><a href="https://github.com/FatiniUmairah/Tic-Tac-Toe-Game">Click here to see the code</a></p>
+  </div>
+</div>
+
+<div id="message4" class="message-box" style="display: none;">
+  <div class="message-content">
+    <button onclick="closeMessage('message4')">X</button>
+        <img src="./assets/images/addto.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+
+   <h3>Overview of the System</h3>
+  <p>• Developed using Sublime,PHP, sql(phpMyAdmin)</p>
+<p>• An e-commerce system that enables users to shop online, place orders, and track their purchases, while administrators manage orders until the products are successfully delivered.</p>
+
+
+            <p><a href="https://drive.google.com/file/d/1uGodORC6Hv2ShrhUWJgNoE0BDkr3-OGU/view?usp=sharing" target="_blank">Click here to see the report</a></p>
+                        <p><a href="https://github.com/FatiniUmairah/E-Commerce-Online-Shopping-DahliaSupermarket">Click here to see the code</a></p>
+  </div>
+</div>
+
+<div id="message5" class="message-box" style="display: none;">
+  <div class="message-content">
+    <button onclick="closeMessage('message5')">X</button>
+     <img src="./assets/images/asap.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+ <h3>Overview of the System</h3>
+  <p>• Developed using JSP, Servlet, Java, HTML,CSS,and MVC</p>
+<p>• Designed for staff and employees to efficiently manage customer parcels.</p>
+   <p><a href="https://drive.google.com/file/d/1PwFnxSn8F0gSnZBX40qlpDOpj0JMA4zl/view?usp=sharing" target="_blank">Click here to see the report</a></p>
+                        <p><a href="https://github.com/FatiniUmairah/Parcel-Tracker">Click here to see the code</a></p>
+  </div>
+</div>
+
+<!-- CSS for message boxes -->
+<style>
+  .message-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .message-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .message-content button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  function showMessage(id) {
+    document.getElementById(id).style.display = 'flex';
+  }
+
+  function closeMessage(id) {
+    document.getElementById(id).style.display = 'none';
+  }
+</script>
+
+
+
+
+
+     
+
+  
+
+        
+
+
+      
+
+                 
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+    
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfoliop" data-page="portfolioo">
+
+        <header>
+          <h2 class="h2 article-title">Portfolijo</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+           
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="zimages/SESP-1.JPG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart Parking Management with Data Viusalization and Anomaly Detection</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/SESP-2.JPG" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Software Engineer Salary Prediction</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+z            </li>
+
+            <li class="project-item  active" data-filter-item data-category=" applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tic Tac Toe Game</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-Commerce Dahlia Supermarket</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Parcel Tracker Management</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+         
+
+         
+        
+          
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="me" data-page="me">
+
+        <header>
+          <h2 class="h2 article-title">Me</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ooo.jpeg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Masjid Shah Alam</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+ love looking at beautiful views and capturing them, it brightens my day.           </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/skill.JPG" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Skill Development</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+ improving myself by gaining new skills, such as obtaining certifications  </p>
+
+                </div>
+
+              </a>
+           <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/volunteer.jpeg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Volunteer Work</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+ Learning about life through volunteer work            </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/food.jpeg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Self Reward</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+ love to treat and reward myself as a way to celebrate my achievements and show self-appreciation.              </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          <!--  <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/out.jpeg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Enjoying Life</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+Love socializing with people, shopping, and going out               </p>
+
+                </div>
+
+              </a>
+            </li>-->
+
+          <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/menmum.jpeg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <h4>Mom</h4>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+
+                  <p class="blog-text">
+ My number one and forever supporter                 </p>
+
+                </div>
+
+              </a>
+            </li>
+          </li>
+        </ul>
+      </section>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
