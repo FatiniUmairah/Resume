@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fatini Umairah Portfolio</title>
+  <title>PORTFOLIO FATINI UMAIRAH BINTI UMAR</title>
 
-
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -20,20 +23,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
-<body style="
-  background-color: saddlebrown; 
-  background-image: url('./assets/images/kosong.png'); 
-  background-repeat: repeat-x; 
-    background-repeat: repeat-y; 
 
-  background-size: 100px;
-">
-</body>
-
-
-
+<body>
 
   <!--
     - #MAIN
@@ -50,19 +44,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/gambardegree3.png" alt="Richard hanrick" width="200" height="180">
+          <img src="./assets/images/tini.jpg" alt="Richard hanrick" width="80">
         </figure>
-<style>
-  .info-content .name {
-    margin: 0; /* Remove margin around h1 */
-  }
-</style>
-<div class="info-content">
-  <h2 class="name" title="Richard hanrick">Fatini Umairah</h1>
-  <h2 class="name" title="Richard hanrick">Umar</h1>
-  <p class="t">Final Year Computer Student</p>
-</div>
 
+        <div class="info-content">
+          <h1 class="name" title="Fatini Umairah">Fatini Umairah</h1>
+                    
+
+
+
+          <p class="title">Computer Science</p>
+        </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -101,12 +93,24 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+601116308602</a>
+<a href="tel:+601116308602" class="contact-link">+6011-1630 8602</a>
             </div>
 
           </li>
 
+          <li class="contact-item">
 
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June, 2002</time>
+            </div>
+
+          </li>
 
           <li class="contact-item">
 
@@ -117,7 +121,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Hulu Langat, Selangor</address>
+              <address>Selangor, Malaysia</address>
             </div>
 
           </li>
@@ -129,21 +133,22 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/fatini-umairah-umar-0a2769328/" class="social-link">
+  <a href="https://www.linkedin.com/in/fatini-umairah-umar-0a2769328/" class="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
-          <li class="social-item">
-            <a href="https://github.com/FatiniUmairah" class="social-link">
+         
+
+         <li class="social-item">
+  <a href="https://wa.me/601116308602" class="social-link" target="_blank">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+  </a>
+</li>
+<li class="social-item">
+  <a href="https://github.com/FatiniUmairah" class="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
-          </li>
-
-        <!--  <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-google"></ion-icon>
-            </a>-->
           </li>
 
         </ul>
@@ -171,15 +176,24 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Portfolio</button>
+            <button class="navbar-link  active" data-nav-link>About</button>
           </li>
-
-        
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Me</button>
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+          <!--  <button class="navbar-link" data-nav-link>Contact</button>-->
+          </li>
 
         </ul>
 
@@ -193,257 +207,167 @@
         - #ABOUT
       -->
 
-  <article class="portfolio active" data-page="portfolio">
-  <header>
-    <h2 class="h2 article-title">Portfolio</h2>
-  </header>
+      <article class="about  active" data-page="about">
 
-  <section class="projects">
-    <ul class="project-list">
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="javascript:void(0);" onclick="showMessage('message1')">
-          <img src="./assets/images/SS.png" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
-          <br>
-          <h3 class="project-title">Smart Parking Management with Data Visualization and Anomaly Detection (On-Going Project)</h3>
-          <p class="project-category">Web Development</p>
-        </a>
-      </li>
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="javascript:void(0);" onclick="showMessage('message2')">
-          <img src="./assets/images/SESP.JPG" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
-          <br>
-          <h3 class="project-title">Software Engineer Salary Prediction</h3>
+        <section class="about-text">
+          <p>
+       Hi! I'm Fatini 😊
+I’m a Computer Science graduate from Universiti Teknologi MARA (UITM) Shah Alam, currently interning as a Software Development and Support Intern at SB Group. During my internship, I’ve been actively involved in gathering user requirements, developing the system through coding, fixing existing issues, and performing thorough testing. 
+          </p>
 
-          <p class="project-category">Web Development</p>
-        </a>
-      </li>
+          <p>
+            I'm genuinely curious about the IT field and enjoy learning new things, whether it’s coding, troubleshooting issues, or understanding how systems work behind the scenes. While I’m especially drawn to software development, I’m also open to exploring roles such as data analyst, data engineer, software tester, IT support and other areas in tech to discover where I can grow and contribute best.
+          </p>
+        </section>
 
-    
 
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="javascript:void(0);" onclick="showMessage('message4')">
-          <img src="./assets/images/dahlia.JPG" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
-          <br>
-          <h3 class="project-title">E-Commerce Dahlia Supermarket</h3>
-          <p class="project-category">Web Development</p>
-        </a>
-      </li>
+        <!--
+          - service
+        -->
 
-      <li class="project-item active" data-filter-item data-category="applications">
-        <a href="javascript:void(0);" onclick="showMessage('message5')">
-          <img src="./assets/images/ParcelTracker.JPG" alt="fundo" loading="lazy" style="width: 300px; height: 200px;">
-          <br>
-          <h3 class="project-title">Parcel Tracker Management</h3>
-          <p class="project-category">Web Development</p>
-        </a>
-      </li>
-        <li class="project-item active" data-filter-item data-category="applications">
-        <a href="javascript:void(0);" onclick="showMessage('message3')">
-          <img src="./assets/images/TicTac.JPG" alt="fundo" loading="lazy" style="width: 180px; height: 360px;">
-          <br>
-          <h3 class="project-title">Tic Tac Toe Game</h3>
-          <p class="project-category">Application</p>
-        </a>
-      </li>
-    </ul>
-     <h3 class="h3 skills-title">My skills</h3>
+        <section class="service">
 
-          <ul class="skills-list content-card">
+          <h3 class="h3 service-title">Here is what I’m currently doing in my internship.</h3>
 
-            <li class="skills-item">
+          <ul class="service-list">
 
-              <div class="title-wrapper">
-                <h5 class="h5"> Software: Visual Studio, Sublime Text, Visual Studio.NET, Alice, Android Studio, Figma, Microsoft Azure,
- PowerBI</h5>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gathering User Requirements</h4>
+
+                <p class="service-item-text">
+Involved in gathering and analyzing user requirements, followed by the preparation of clear technical documentation for approval. Created interface sketches and mockups to help users visualize the proposed system. Documentation included both visual elements and a structured list of requirements to ensure alignment before development.              </p>
               </div>
 
             </li>
 
-            <li class="skills-item">
+            <li class="service-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">Programming: PHP, Java, Python, C++, JavaScript, HTML, CSS, JSON, SQL </h5>
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Developing the system</h4>
+
+                <p class="service-item-text">
+Developing the system based on user requirements using C# and .NET, with SQL Server Management Studio (SSMS) for database management. Adding new functions to the system and fixing existing errors to improve overall system performance and stability.                   </p>
+              </div>
+
+
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testing</h4>
+
+                <p class="service-item-text">
+                Conducting system testing by preparing a checklist to ensure each module functions as expected. Presenting the system to users for validation and feedback to ensure it meets their expectations, including live demonstrations and user testing sessions
+                </p>
               </div>
 
             </li>
 
-            <li class="skills-item">
+            <li class="service-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">Databases and Data Analysis: MySQL, Excel</h5>
+              <div class="service-icon-box">
+                <img src="./assets/images/comp.png" alt="camera icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Post-Deployment Support</h4>
 
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5"> Certification: Certified Data Analyst Program (Currently pursuing Microsoft Azure Data and Power BI
- certifications, with an expected completion date of April 2025).</h5>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <p class="service-item-text">
+Providing ongoing support for the system post-deployment, ensuring prompt identification and resolution of any issues to maintain smooth operation and user satisfaction.                </p>
               </div>
 
             </li>
 
           </ul>
 
-  </section>
-
-</article>
+        </section>
 
 
+        <!--
+          - testimonials
+        -->
 
-<!-- Message Boxes -->
-<div id="message1" class="message-box" style="display: none;">
-  <div class="message-content">
-    <button onclick="closeMessage('message1')">X</button>
-<img src="./assets/images/SS.png" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
-s     <h3>Overview of the System</h3>
-      <p>• Developed using Laravel, PHP, csv and SQL (phpMyAdmin)</p>
-      <p>• This system will analyze data from Smart Integra Tech Sdn Bhd and detect abnormal data, and visualize it.</p>
+        <section class="testimonials">
 
-<p>• For example, this system is able to detect duplicate customer data, abnormal transactions, unusual plate numbers, suspicious credit balances, and irregular parking start and end times.</p>
+          <h3 class="h3 testimonials-title">Reference</h3>
 
-      <p>• Due to its confidentiality, the system cannot be shared, but the report is available. However, this project is still ongoing.</p>
-      <p><a href="https://drive.google.com/file/d/1PBge5OqlNxclbdS4icyIrpcqh55MKtjH/view?usp=sharing" target="_blank">Click here to see the report</a></p>
-  </div>
-</div>
+          <ul class="testimonials-list has-scrollbar">
 
-<div id="message2" class="message-box" style="display: none;">
-  <div class="message-content">
-    <button onclick="closeMessage('message2')">X</button>
-    <img src="./assets/images/predict.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-     <h3>Overview of the System</h3>
-      <p>• Developed using Visual Studio, Flask, Anaconda, Python, Google collab and Sql (phpMyAdmin)</p>
-      <p>• This system able to predict software engineer salary over a few countries by their experience country and others</p>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Samuel Lai" width="60" data-testimonials-avatar>
+                </figure>
 
-<p>• The admin will able to do the CRUD operation for manage job advertisment while the user can view the prediction after entering some details and can search for job too.</p>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Samuel Lai</h4>
 
-            <p><a href="https://drive.google.com/drive/folders/1Y7lJORkNLw4KqJ2nbuOhnv48Z3lVsvPM?usp=sharing" target="_blank">Click here to see the report</a></p>
-                        <p><a href="https://github.com/FatiniUmairah/Software-Engineer-Salary-Prediction">Click here to see the code</a></p>
-  </div>
-</div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+               Industrial Supervisor (SB Group)
+                  </p>
+                   <p>
+               +60 16-322 9128
+                  </p>
+                </div>
 
-<div id="message3" class="message-box" style="display: none;">
-  <div class="message-content">
-    <button onclick="closeMessage('message3')">X</button>
-    <img src="./assets/images/score.JPG" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+              </div>
+            </li>
 
-     <h3>Overview of the System</h3>
-  <p>• Developed using Android Studio, Kotlin, and SQL (phpMyAdmin).</p>
-<p>• This game can be played by 2 players, and the user records will be stored.</p>
+           
 
+           
 
-            <p><a href="https://drive.google.com/file/d/18JQQV-8n5NFEC2rQfAkqUjjN01qOqSLN/view?usp=sharing" target="_blank">Click here to see the report</a></p>
-                        <p><a href="https://github.com/FatiniUmairah/Tic-Tac-Toe-Game">Click here to see the code</a></p>
-  </div>
-</div>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-<div id="message4" class="message-box" style="display: none;">
-  <div class="message-content">
-    <button onclick="closeMessage('message4')">X</button>
-        <img src="./assets/images/addto.jpeg" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
 
-   <h3>Overview of the System</h3>
-  <p>• Developed using Sublime,PHP, sql(phpMyAdmin)</p>
-<p>• An e-commerce system that enables users to shop online, place orders, and track their purchases, while administrators manage orders until the products are successfully delivered.</p>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr Izzad Ramli</h4>
 
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Senior Lecturer, Final Year Project SV (UITM)
+                  </p>
+                  <p>
+                  +60 17-545 6039
+                  </p>
+                </div>
 
-            <p><a href="https://drive.google.com/file/d/1uGodORC6Hv2ShrhUWJgNoE0BDkr3-OGU/view?usp=sharing" target="_blank">Click here to see the report</a></p>
-                        <p><a href="https://github.com/FatiniUmairah/E-Commerce-Online-Shopping-DahliaSupermarket">Click here to see the code</a></p>
-  </div>
-</div>
+              </div>
+            </li>
 
-<div id="message5" class="message-box" style="display: none;">
-  <div class="message-content">
-    <button onclick="closeMessage('message5')">X</button>
-     <img src="./assets/images/asap.jpeg" alt="System Screenshot" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
- <h3>Overview of the System</h3>
-  <p>• Developed using JSP, Servlet, Java, HTML,CSS,and MVC</p>
-<p>• Designed for staff and employees to efficiently manage customer parcels.</p>
-   <p><a href="https://drive.google.com/file/d/1PwFnxSn8F0gSnZBX40qlpDOpj0JMA4zl/view?usp=sharing" target="_blank">Click here to see the report</a></p>
-                        <p><a href="https://github.com/FatiniUmairah/Parcel-Tracker">Click here to see the code</a></p>
-  </div>
-</div>
+          </ul>
 
-<!-- CSS for message boxes -->
-<style>
-  .message-box {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-
-  .message-content {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-    max-width: 80%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .message-content button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 18px;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-</style>
-
-<!-- JavaScript -->
-<script>
-  function showMessage(id) {
-    document.getElementById(id).style.display = 'flex';
-  }
-
-  function closeMessage(id) {
-    document.getElementById(id).style.display = 'none';
-  }
-</script>
+        </section>
 
 
-
-
-
-     
-
-  
-
-        
-
-
-      
-
-                 
+        <!--
+          - testimonials modal
+        -->
 
         <div class="modal-container" data-modal-container>
 
@@ -457,15 +381,17 @@ s     <h3>Overview of the System</h3>
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Samuel Lai" width="80" data-modal-img>
               </figure>
 
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 class="h3 modal-title" data-modal-title>Samuel Lai</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <!--<time datetime="2021-06-14">14 June, 2021</time>-->
 
               <div data-modal-text>
                 <p>
@@ -488,7 +414,197 @@ s     <h3>Overview of the System</h3>
           - clients
         -->
 
-    
+        <section class="clients">
+
+         
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Teknologi Mara (UITM)</h4>
+
+              <span>2023 - 2025</span>
+
+              <p class="timeline-text">
+                Degree (3.47/4.00)
+              </p>
+              <p class="timeline-text">
+              Honored with the Dean’s Award twice 
+              </p>
+
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Teknologi Mara (UITM)</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+               Diploma (3.15/4.00)
+              </p>
+
+            </li>
+
+           <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and desig</h4>
+
+              <span><!--2002 — 2004</span>
+
+              <p class="timeline-text">
+                <!--Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>-->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Development and Support Intern</h4>
+
+              <span>SB Group</span>
+
+              <p class="timeline-text">
+As a Software Development and Support Intern, I’m currently involved in building and maintaining a web-based HR training evaluation system. I handle the full development lifecycle—from gathering requirements and programming to testing, debugging, and user support. The system streamlines training approval workflows, automates follow-up reminders for post-training evaluations, and provides role-based views for staff, HODs, and HR. My key contributions include developing the evaluation module and a calendar feature to display approved training events. This system reduces paper use, enhances data organization, and improves efficiency and security in tracking staff training activities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Intern</h4>
+
+              <span>Tenaga Nasional Berhad (TNB)</span>
+
+              <p class="timeline-text">
+                During my internship, I developed a report tracking system using Power Apps and Dataverse. The application enables users to create, view, update, and delete reports while tracking their status—such as ongoing, completed, or pending. Although the project was not fully completed by the end of my internship, I successfully built the core CRUD functionalities and contributed to improving how users manage and monitor reporting progress.
+
+
+              </p>
+
+            </li>
+
+            <!--<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>-->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+         <ul class="skills-list content-card">
+
+  
+<li class="skills-item">
+  <h4 class="h4">Programming Languages</h4>
+  <ul class="skills-grid">
+    <li>C#</li>
+    <li>PHP</li>
+    <li>C++</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Java</li>
+    <li>Kotlin</li>
+    <li>JSON</li>
+    <li>SQL</li>
+  </ul>
+</li>
+
+
+   <li class="skills-item">
+    <h4 class="h4">Frameworks & Software</h4>
+  <ul class="skills-grid">
+      <li> ASP.NET</li>
+      <li> Visual Studio</li>
+      <li> Laravel</li>
+      <li> Sublime Text</li>
+      <li> Android Studio</li>
+      <li> Alice</li>
+      <li> Figma</li>
+      <li> Power Apps(Low Code)</li>
+</ul>
+</li>
+
+
+  <li class="skills-item">
+    <h4 class="h4">Databases & Data Analysis</h4>
+  <ul class="skills-grid">
+      <li>SQL Server Management <br>Studio (SSMS)</li>
+      <li>MySQL</li>
+      <li>Excel</li>
+      <li>Dataverse</li>
+</ul>
+  </li>
+
+</ul>
+
+
+        </section>
 
       </article>
 
@@ -500,10 +616,10 @@ s     <h3>Overview of the System</h3>
         - #PORTFOLIO
       -->
 
-      <article class="portfoliop" data-page="portfolioo">
+      <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolijo</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -515,15 +631,15 @@ s     <h3>Overview of the System</h3>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+             <!-- <button data-filter-btn>Web design</button>-->
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+             <!-- <button data-filter-btn>Applications</button>-->
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+            <!--  <button data-filter-btn>Web development</button>-->
             </li>
 
           </ul>
@@ -540,23 +656,42 @@ s     <h3>Overview of the System</h3>
 
             </button>
 
-           
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
           </div>
 
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://drive.google.com/file/d/1sAr8sBNIVAOsec3Vo4ISmBwJt6-4baHI/view?usp=sharing"target="_blank" style="text-decoration: none; color: inherit;">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="zimages/SESP-1.jpeg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-1111.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Smart Parking Management with Data Viusalization and Anomaly Detection</h3>
+                <h3 class="project-title">HR Training Portal</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -564,82 +699,83 @@ s     <h3>Overview of the System</h3>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+ <a href="https://drive.google.com/file/d/17PnLMdpJhA9olyduIv8hHnbf8YGFHSqu/view?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="images/SESP-2.jpeg" alt="orizon" loading="lazy">
+<img src="./assets/images/blog-2111.jpg" alt="orizon" loading="lazy" style="width: 100%; height: 190px; border-radius: 15px;">
                 </figure>
 
-                <h3 class="project-title">Software Engineer Salary Prediction</h3>
+                <h3 class="project-title">Smart Parking Management System with Data Visualization and Anomaly Detection</h3>
+
 
                 <p class="project-category">Web development</p>
-
-              </a>
-z            </li>
-
-            <li class="project-item  active" data-filter-item data-category=" applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpeg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Tic Tac Toe Game</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">E-Commerce Dahlia Supermarket</h3>
-
-                <p class="project-category">Applications</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://drive.google.com/file/d/18JQQV-8n5NFEC2rQfAkqUjjN01qOqSLN/view?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/tictactoe.jpg" alt="fundo" loading="lazy" alt="orizon" loading="lazy" style="width: 97%; height: 190px; border-radius: 15px;">
                 </figure>
 
-                <h3 class="project-title">Parcel Tracker Management</h3>
+                <h3 class="project-title">Tic Tac Toe Game</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Mobile Application</p>
 
               </a>
             </li>
 
-         
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://drive.google.com/file/d/1Qa9v_p1A6Ce2_hx6XcJkXa-F9Ysu89H8/view?usp=sharing"target="_blank" style="text-decoration: none; color: inherit;">
 
-         
-        
-          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/SESP.jpg" alt="brawlhalla" loading="lazy" alt="orizon" loading="lazy" style="width: 100%; height: 180px; border-radius: 15px;">
+                </figure>
+
+                <h3 class="project-title">Software Engineer Salary Prediction</h3>
+
+                <p class="project-category">Web Development(AI)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://drive.google.com/file/d/1uGodORC6Hv2ShrhUWJgNoE0BDkr3-OGU/view?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dahlia.jpg" alt="dsm." loading="lazy" style="width: 200%; height: 180px; border-radius: 15px;">
+                </figure>
+
+                <h3 class="project-title">Dahlia Supermarket</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            
+           
+
+           
+
           </ul>
 
         </section>
@@ -654,10 +790,10 @@ z            </li>
         - #BLOG
       -->
 
-      <article class="me" data-page="me">
+      <article class="blog" data-page="certifications">
 
         <header>
-          <h2 class="h2 article-title">Me</h2>
+          <h2 class="h2 article-title">certifications</h2>
         </header>
 
         <section class="blog-posts">
@@ -665,126 +801,213 @@ z            </li>
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
+              <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/ooo.jpeg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/blog-3.jpg" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <h4>Embracing the beauty of serene views ✨</h4>
+                    <p class="blog-category">Ongoing</p>
 
                     <span class="dot"></span>
+                     <p class="blog-text">
+                  Coursera
+                  </p>
 
+                   <!-- <time datetime="2022-02-23">Fab 23, 2022</time>-->
                   </div>
+                 
 
+                  <h3 class="h3 blog-item-title">.NET FullStack Developer</h3>
 
-                  <p class="blog-text">
- There's something magical about peaceful landscapes that brightens the day and soothes the soul         </p>
+                 
 
                 </div>
 
               </a>
             </li>
 
-            <li class="blog-post-item">
+       <li class="blog-post-item">
+  <a href="javascript:void(0);" onclick="openModal1()">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/skill.JPG" alt="UI interactions of the week" loading="lazy">
-                </figure>
+    <figure class="blog-banner-box">
+      <img src="./assets/images/blog-8.jpg" alt="Design digest #80" loading="lazy">
+    </figure>
 
-                <div class="blog-content">
+    <div class="blog-content">
+      <div class="blog-meta">
+        <p class="blog-category">Completed</p>
+        <span class="dot"></span>
+        <p class="blog-text">Microsoft Certified</p>
+      </div>
 
-                  <div class="blog-meta">
-                    <h4>Skill Development💡</h4>
+      <h3 class="h3 blog-item-title">Azure Data Fundamentals</h3>
+    </div>
 
-                    <span class="dot"></span>
+  </a>
+</li>
+<!-- Modal for Azure -->
+<div id="modal1" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:999;">
+  <div style="background:#fff; padding:20px; border-radius:10px; text-align:center; 
+      max-width:90%; max-height:90vh; overflow:auto; box-sizing:border-box;">
+    
+    <img src="./assets/images/blog-8.jpg" alt="Power BI Certificate"
+         style="width:100%; height:auto; max-height:60vh; object-fit:contain; border-radius:8px;">
 
-                  </div>
+    <h3 style="margin-top:10px;">Azure Data Fundamentals</h3>
+    <p>Completed Microsoft Certified Course</p>
 
+    <button onclick="closeModal1()" style="margin:15px auto; padding:8px 16px; background-color:#4CAF50; color:#fff; border:none; border-radius:4px; cursor:pointer;">Close</button>
 
-                  <p class="blog-text">
- Continuously improving myself by acquiring new skills and earning certifications to enhance my expertise.  </p>
+  </div>
+</div>
+<script>
+  function openModal1() {
+    document.getElementById("modal1").style.display = "flex";
+  }
+  function closeModal1() {
+    document.getElementById("modal1").style.display = "none";
+  }
+</script>
 
-                </div>
-
-              </a>
-           <li class="blog-post-item">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/volunteer.jpeg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <h4>Volunteer Work🌟</h4>
-
-                    <span class="dot"></span>
-
-                  </div>
-
-
-                  <p class="blog-text">
-Gaining valuable life lessons and experiences through meaningful volunteer activities.           </p>
-
-                </div>
-
-              </a>
-            </li>
 
           <li class="blog-post-item">
+  <a href="javascript:void(0);" onclick="openModal2()">
+
+    <figure class="blog-banner-box">
+      <img src="./assets/images/blog-7.jpg" alt="Design digest #80" loading="lazy">
+    </figure>
+
+    <div class="blog-content">
+      <div class="blog-meta">
+        <p class="blog-category">Completed</p>
+        <span class="dot"></span>
+        <p class="blog-text">Microsoft Certified</p>
+      </div>
+
+      <h3 class="h3 blog-item-title">Power BI Data Analyst Associate</h3>
+    </div>
+
+  </a>
+</li>
+<!-- Modal for Power BI -->
+<div id="modal2" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:999;">
+  <div style="background:#fff; padding:20px; border-radius:10px; text-align:center; 
+      max-width:90%; max-height:90vh; overflow:auto; box-sizing:border-box;">
+    
+    <img src="./assets/images/blog-7.jpg" alt="Power BI Certificate"
+         style="width:100%; height:auto; max-height:60vh; object-fit:contain; border-radius:8px;">
+
+    <h3 style="margin-top:10px;">Power BI Data Analyst Associate</h3>
+    <p>Completed Microsoft Certified Course</p>
+
+    <button onclick="closeModal2()" style="margin:15px auto; padding:8px 16px; background-color:#4CAF50; color:#fff; border:none; border-radius:4px; cursor:pointer;">Close</button>
+
+</div>
+<script>
+  function openModal2() {
+    document.getElementById("modal2").style.display = "flex";
+  }
+  function closeModal2() {
+    document.getElementById("modal2").style.display = "none";
+  }
+</script>
+
+           <!-- <li class="blog-post-item">
+              <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/food.jpeg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <h4>Self Reward🎁</h4>
+                    <p class="blog-category">Power BI Data Analyst Associate</p>
 
                     <span class="dot"></span>
 
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
 
                   <p class="blog-text">
-Treating and rewarding oneself to celebrate achievements and practice self-appreciation.              </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          <!--  <li class="blog-post-item">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/out.jpeg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <h4>Enjoying Life</h4>
-
-                    <span class="dot"></span>
-
-                  </div>
-
-
-                  <p class="blog-text">
-Love socializing with people, shopping, and going out               </p>
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
 
                 </div>
 
               </a>
             </li>-->
 
-         
-        </ul>
-      </section>
+            <!-- <li class="blog-post-item">-->
+              <!--<a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>-->
+          <!--  </li>-->
+
+           <!-- <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>-->
+
+          </ul>
+
+        </section>
+
+      </article>
+
 
 
 
@@ -795,7 +1018,7 @@ Love socializing with people, shopping, and going out               </p>
 
       <article class="contact" data-page="contact">
 
-        <header>
+        <!--<header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
@@ -828,7 +1051,7 @@ Love socializing with people, shopping, and going out               </p>
 
           </form>
 
-        </section>
+        </section>-->
 
       </article>
 
