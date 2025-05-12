@@ -153,9 +153,20 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-poppins);
+  background-color: var(--smoky-black); /* fallback if image fails */
+  overflow-x: hidden;
+}
 
-body { background: var(--smoky-black); }
+body {
+  background: url('../images/sky.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 
 
