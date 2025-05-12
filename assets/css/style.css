@@ -691,6 +691,11 @@ main {
   transition: var(--transition-1);
   z-index: 2;
 }
+/* prevent hand cursor on hover */
+  .testimonials-item,
+  .testimonials-item * {
+    cursor: default;
+  }
 
 .modal-container.active .testimonials-modal {
   transform: scale(1);
